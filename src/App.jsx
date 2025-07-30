@@ -6,6 +6,7 @@ import Title from './components/Title/Title'
 import AboutUs from './components/AboutUs/AboutUs'
 import Campus from './components/Campus/Campus'
 import Testimonials from './components/Testimonials/Testimonials'
+import Contact from './components/Contact/Contact'
 const App = () => {
   return (
     <div>
@@ -19,6 +20,8 @@ const App = () => {
         <Campus/>
         <Title subTitle = "Testimonial" title = "What Student Stays"/>
         <Testimonials/>
+        <Title subTitle = "Contact Us" title = "Get in touch"/>
+        <Contact/>
       </div>
     </div>
   )
