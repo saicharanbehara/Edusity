@@ -4,8 +4,8 @@ import logo from '../../assets/logo.png'
 
 const Navbar = () => {
   return (
-    <nav className='container'>
-        <img src = {logo} alt = '' className='logo'/>
+    <nav className='darkNav container'>
+          <img src = {logo} alt = '' className='logo'/>
         <ul>
             <li>Home</li>
             <li>Program</li>

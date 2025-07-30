@@ -1,15 +1,15 @@
 import React from 'react'
-import '../AboutUs/AboutUs'
+import '../AboutUs/AboutUs.css'
 import About from '../../assets/about.png'
 import Playicon from '../../assets/play-icon.png'
 const AboutUs = ({subTitle,title}) => {
   return (
-    <div className='AboutUs'>
-        <div className='About-left'>
-            <img src={About} alt='' className='About-img'/>
+    <div className='about'>
+        <div className='about-left'>
+            <img src={About} className='about-img'/>
             <img src={Playicon} className='Play-icon'/>
         </div>
-        <div className='About-right'>
+        <div className='about-right'>
             <h3>{subTitle}</h3>
             <h2>{title}</h2>
             <p>Embark on a transformative educational journey with our university's comprehensive education programs. Our cutting-edge curriculum is designed to empower students with the knowledge, skills, and experiences needed to excel in the dynamic field of education.</p>
